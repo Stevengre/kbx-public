@@ -1,0 +1,21 @@
+Family{
+familyName=Smith,
+  father={ firstName = John },
+  mother={ firstName = Mary },
+  sons={ firstName = Kevin },
+  daughters={ firstName = Katie }
+},
+Family{
+familyName=Collie,
+  father={ firstName = Petar },
+  mother={ firstName = Claire },
+  sons=,
+  daughters=
+},
+Family{
+familyName=Miller,
+  father=Nothing,
+  mother=Nothing,
+  sons=,
+  daughters=
+}

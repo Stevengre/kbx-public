@@ -1,0 +1,16 @@
+Pedestrain ::=
+  s := 0;
+  log("Run 10 meters");
+  <s' = 1 & s < 10>;
+  button ! 0
+;
+Light ::=
+  t := 0;
+  log("Light is green");
+  status := 1 ;
+  button ? status -->
+    log("Red for 20 seconds");
+    <t' = 1 & t < 20>;
+    log("Light is green");
+    status := 0;
+;

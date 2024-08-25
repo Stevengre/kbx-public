@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kbx"
+version = "0.1.0"
+description = ""
+authors = ["Stevengre <229474673@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+kframework = "7.1.23"
+#pyk = { git = "https://github.com/runtimeverification/k.git", tag="v7.0.126", subdirectory = "pyk" }
+pytest = "^7.4.3"
+chardet = "^5.2.0"
+
+[tool.poetry.scripts]
+kbx = "kbx.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

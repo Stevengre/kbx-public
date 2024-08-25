@@ -1,0 +1,6 @@
+Male { fullName = Collie Petar , birthday = "1979/11/08" },
+Female { fullName = Collie Claire , birthday = "1970/04/03" },
+Male { fullName = Smith John , birthday = "1970/04/03" },
+Female { fullName = Smith Mary , birthday = "1980/02/15" },
+Male { fullName = Smith Kevin , birthday = "2007/06/13" },
+Female { fullName = Smith Katie , birthday = "2005/12/12" }

@@ -1,0 +1,11 @@
+' Pedestrain "Initialize"
+Pedestrain -[ #black ]> Pedestrain : "Run 10 meters"
+' Light "Initialize"
+Light -[ #green ]> Light : "Light is green"
+opt
+  Pedestrain -[ #black ]> Light : status := 0
+  ' process Pedestrain
+  Light -[ #red ]> Light : "Red for 20 seconds"
+  Light -[ #green ]> Light : "Light is green"
+end
+' process Light
